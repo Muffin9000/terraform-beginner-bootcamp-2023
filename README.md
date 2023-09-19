@@ -37,3 +37,14 @@ Or if you can ENVs with secure information, you can store them as gitpod secrets
 ```
 gp env HELLO='world'
 ```
+### AWS Credentials
+you need to set ENVS
+[ENV SETUP](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
+
+test that they work with:
+
+```
+aws sts get-caller-identity
+```
+
+It is good practice to  run this command before starting to work with AWS to make sure that you are logged in as the right user
