@@ -19,3 +19,21 @@ Additional labels for pre-release and build metadata are available as extensions
 [Install TF CLI](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 https://www.cyberciti.biz/faq/
 https://www.gitpod.io/docs/configure/workspaces/tasks
+
+## Working with ENV
+List them with `env`
+Unset them with `unset`
+Export them with `export MY_COLOR=blue`
+Fither them with `env |grep`
+
+Print them with `echo $MY_COLOR`
+
+## Scoping of ENV
+ENV are session dependent, once you open up another bash session the ENV that you've exported will no longer be available, this is why it's best to put them to ~/.bashrc so they are exported/defined on sessions start (logon)
+
+You can also put them in .gitpod.yaml
+
+Or if you can ENVs with secure information, you can store them as gitpod secrets
+```
+gp env HELLO='world'
+```
