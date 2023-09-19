@@ -14,3 +14,8 @@ The general format:
 - **PATCH** version when you make backward compatible bug fixes
 
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
+## Install the TF CLI
+[Install TF CLI](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+https://www.cyberciti.biz/faq/
+https://www.gitpod.io/docs/configure/workspaces/tasks
