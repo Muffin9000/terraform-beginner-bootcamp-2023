@@ -48,3 +48,13 @@ aws sts get-caller-identity
 ```
 
 It is good practice to  run this command before starting to work with AWS to make sure that you are logged in as the right user
+
+## Terraform Basics
+
+#### Terrafrom Registry
+
+Terrafrom sources their provides and modules from the Terrafrom registry which located at registry. 
+[registry.terrafrom.io](https://registry.terraform.io/)
+
+- **Providers** is an interface to APIs that will allow to create resources in terrafrom.
+- **Modules** are a way to make large amount of terrafrom code modular, portable and sharable.
