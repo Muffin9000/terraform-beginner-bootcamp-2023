@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 export PROJECT_ROOT='/workspace/terraform-beginner-bootcamp-2023'
+alias tf='terraform'
 cd /workspace
 
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common curl
