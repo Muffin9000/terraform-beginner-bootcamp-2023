@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 TARGET_DIR="/home/gitpod/.terraform.d"
 TARGET_FILE="${TARGET_DIR}/credentials.tfrc.json"
 
