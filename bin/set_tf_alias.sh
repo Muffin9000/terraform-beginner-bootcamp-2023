@@ -14,5 +14,4 @@ else
 fi
 
 # Optional: source the .bash_profile to make the alias available immediately
-
 source ~/.bash_profile
